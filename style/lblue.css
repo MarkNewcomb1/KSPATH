@@ -1,7 +1,7 @@
 /* Light Blue */
 
 a{
-	color: #1ba1e2;
+	color: #0000ff;
 }
 
 a:hover{
@@ -9,19 +9,19 @@ a:hover{
 }
 
 blockquote{
-	border-left: 4px solid #1ba1e2;
+	border-left: 4px solid #0000ff;
 }
 
 .color{
-	color: #1ba1e2;	
+	color: #0000ff;	
 }
 
 header{
-	border-top: 2px solid #1ba1e2;
+	border-top: 2px solid #0000ff;
 }
 
 .navbar button{
-background:#1ba1e2 !important;  
+background:#0000ff !important;  
 }
 
 .navbar button:hover{
@@ -29,8 +29,8 @@ background:#178ec7 !important;
 }
 
 .da-slider{
-	border-top: 3px solid #1ba1e2;
-	border-bottom: 3px solid #1ba1e2;
+	border-top: 3px solid #0000ff;
+	border-bottom: 3px solid #0000ff;
 }
 
 .da-slide h2 span{
@@ -38,7 +38,7 @@ background:#178ec7 !important;
 }
 
 .da-slide .da-link{
-	background: #1ba1e2;
+	background: #0000ff;
 }	
 
 .da-slide .da-link:hover{
@@ -46,16 +46,16 @@ background:#178ec7 !important;
 }
 
 .da-dots span{
-	background: #1ba1e2;
+	background: #0000ff;
 }
 
 .da-arrows span{
-	background: #1ba1e2;
+	background: #0000ff;
 }
 
 .full-slider{
 	border-top: 5px solid #178ec7;
-	background: #1ba1e2;
+	background: #0000ff;
 }
 
 .full-slider .button a{
@@ -71,7 +71,7 @@ background:#178ec7 !important;
 }
 
 .home-product{
-	background: #1ba1e2;
+	background: #0000ff;
 }
 
 .home-product .home-prod-img{
@@ -83,18 +83,18 @@ background:#178ec7 !important;
 }
 
 #portfolio .pcap{
-	background:#1ba1e2;
+	background:#0000ff;
 	border-top: 2px solid #178ec7;
 }
 
 /* Events - Accordion*/
 
 .events .accordion-heading h5{
-background:#1ba1e2;
+background:#0000ff;
 }
 
 .social-links{
-	background: #1ba1e2;	
+	background: #0000ff;	
 }
 
 .social-links i{
@@ -102,27 +102,27 @@ background:#1ba1e2;
 }
 
 .formy{
-	background: #1ba1e2;
+	background: #0000ff;
 }
 
 .service-two i{
-	color: #1ba1e2;	
+	color: #0000ff;	
 }
 
 .features-two .feat i, .features-three i{
-	color: #1ba1e2;
+	color: #0000ff;
 }
 
 .about-two .asocial i{
-	background:#1ba1e2;
+	background:#0000ff;
 }
 
 .career .nav-tabs > li > a:hover{
-	background: #1ba1e2;
+	background: #0000ff;
 }
 
 .button a{
-	background: #1ba1e2;
+	background: #0000ff;
 }
 
 .button a:hover{
@@ -130,7 +130,7 @@ background:#1ba1e2;
 }	
 
 .paging a:hover{
-	background: #1ba1e2;
+	background: #0000ff;
 }
 
 .paging .current{
