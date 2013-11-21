@@ -1,6 +1,10 @@
-album,artist,price
-"lateralus","tool",13.00
-"aenima","tool",12.00
-"10,000 days","tool",14.00
-"down in it","nine inch nails",3.00
-"broken","nine inch nails",6.00
+What are the weekly database updates?"As the AMS Laboratories lab information system administrators make changes in the LIS they distribute a weekly document describing each change. Those changes include added, changed or deactivated tests as well as added changed or deactivated physicians and finally added changed or deactivated insurances."Why are you getting these weekly database updates e-mailed to you?"The hospital, physician clinic, LIS vendor or EMR vendor that you work for has an electronic results and or orders interface with AMS Laboratories Reference Lab. After the development of this interface you were designated as the contact person for keeping test code mappings, physician IDs and Insurance IDs in sync with those documented in this spreadsheet."What are you supposed to do with these weekly database updates?"When you receive these weekly updates you are to review the tests, physicians and insurances on the associated spreadsheet tabs and decide which additions, changes and or deactivates are pertinent to you interface with AMS Laboratories.
+    - Additions: Is it a test, physician or insurance that you will need to use?
+            ~Yes: Take the necessary steps to add it to your EMR or LIS.
+            ~No: No action necessary.
+    - Changes: Is it a test, physician or insurance that you already use?
+            ~Yes: Take the necessary steps to apply the changes in your EMR or LIS.
+            ~No: No action necessary.
+    - Inactive: Is it a test, physician or insurance that you already use?
+            ~Yes: Take the necessary steps to deactivate or remove it from your EMR or LIS.
+            ~No: No action necessary."
