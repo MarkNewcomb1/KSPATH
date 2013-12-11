@@ -7,16 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Kansas Pathology">
     <meta name="keywords" content="Kansas Pathology">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600' rel='stylesheet' type=
-'text/css'>
-	<link rel="stylesheet" href="css/csvtable.css" type="text/css" />
-<!--stylsheets from bootstrap stuff starts, everything above this is fine and checks out-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
+	
+<!--stylesheets from bootstrap stuff starts, everything above this is fine and checks out-->
     <link href="style/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="style/font-awesome.css">
     <link href="style/prettyPhoto.css" rel="stylesheet">
-    <!-- Parallax slider -->
+
+    <!-- Parallax slider 
     <link rel="stylesheet" href="style/slider.css">
-    <!-- Flexslider -->
+    <!-- Flexslider 
     <link rel="stylesheet" href="style/flexslider.css">
     
     <link href="style/style.css" rel="stylesheet">
@@ -29,20 +29,7 @@
     <!--Favicon-->
     <link rel="shortcut icon" href="img/favicon/favicon.png">
     
-    <!--the beloved CSVtotable script starts here-->
-	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-	<script type="text/javascript" src="js/jquery.csvToTable.js"></script>
-	<!--<script type="text/javascript" src="js/jquery.tablesorter.dev.js"></script>-->
-	
-	<script>
-	$(function() {
-		$.get('test.csv', function(data) {
-			$('#CSVSource').html('<pre>' + data + '</pre>');
-		});
-		$('#CSVTable').CSVToTable('test.csv', { loadingImage: 'img/loading.gif', startLine: 0 });		
-	});
-	</script>
-    <!--beloved CSVtotable script ends-->
+
 </head>
 <body>
     <header>
@@ -130,35 +117,9 @@
 
 <!-- Navigation bar ends -->
 
-<!--This is a test of the CSVToTable plugin.
-<br><br>
-Original CSV (comma separated values) source of <a href="test.csv">test.csv</a>:<br>
-<div id="CSVSource" class="source">
-</div>-->
 
-<br><br>
-CSV To Table:<br>
-<div id="CSVTable">
+<iframe name='iframe1' id="iframe1" src="/QuickProductTemplate.html" frameborder="0" border="0" cellspacing="0" style="border-style: none;width: 95%; height: 420px;"></iframe>
 
-</div>
-
-<br><br>
-<!--Original TSV (tab separated values) source of <a href="test.tsv">test.tsv</a>:<br>
-<div id="TSVSource" class="source">
-</div>
-
-<br><br>
-TSV To Table:<br>
-<div id="TSVTable">
-
-</div>
-
-
-<br><br>
-CSV To Table - made sortable using <a target="_blank" href="http://tablesorter.com/">jQuery tablesorter:</a><br>
-<div id="CSVTable2">
-
-</div>-->
     <!-- Footer -->
 <footer><!--
   <div class="container">
@@ -240,11 +201,11 @@ CSV To Table - made sortable using <a target="_blank" href="http://tablesorter.c
 <script src="js/jquery.cslider.js"></script> <!-- Parallax slider -->
 <script src="js/modernizr.custom.28468.js"></script>
 <script src="js/filter.js"></script> <!-- Filter for support page -->
-<script src="js/cycle.js"></script> <!-- Cycle slider -->
+<!--<script src="js/cycle.js"></script> Cycle slider -->
 <script src="js/jquery.flexslider-min.js"></script> <!-- Flex slider -->
 
-<script src="js/easing.js"></script> <!-- Easing -->
+<!--<script src="js/easing.js"></script>Easing 
 <script src="js/custom.js"></script>
-
+-->
 </body>
 </html>
