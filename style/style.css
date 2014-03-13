@@ -405,6 +405,7 @@ header .logo h1 a, header .logo h1 a:visited, header .logo h1 a:hover{
 
 header .logo .hmeta{
 	color: #777;
+    padding-left: 15px;
 }
 
 header form{
