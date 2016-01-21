@@ -2048,6 +2048,9 @@ footer .copy{
    .aboutus{
    	text-align: center;
    }
+   .logo img {
+	   max-width: 300px;
+   }
 }
 
 @media (max-width: 767px){
