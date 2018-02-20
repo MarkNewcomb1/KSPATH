@@ -83,6 +83,9 @@ include 'header.php';
 
 <!-- Slider Ends -->
 
+<div class="home-banner">
+	Quality Commitment
+</div> <!-- home banner -->
 <div class="content">
   <div class="container">
 
@@ -173,8 +176,6 @@ include 'header.php';
     </div>
 
 <div class="bor"></div>
-
-<hr />
 <?php
 include 'footer.php';
 ?>

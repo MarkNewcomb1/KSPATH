@@ -3598,6 +3598,8 @@ html {
 body {
   font-size: 1.5rem;
   font-family: 'Open Sans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -3632,6 +3634,14 @@ header .mobile_menu_button {
 header .mobile_menu_button span {
   color: #006489;
 }
+header .mobile_menu_button:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 75%;
+  left: 0;
+  height: 100px;
+}
 header .logo {
   width: 70%;
 }
@@ -3651,4 +3661,23 @@ header nav ul li:not(.dropdown-menu) a {
   color: #888;
   font-size: 1.3rem;
   line-height: 2;
+}
+
+.home-banner {
+  padding: 5.1rem 2.1rem;
+  background-color: #0000FF;
+  text-align: center;
+  font: 400 3rem/1.25em 'Roboto';
+  letter-spacing: .2rem;
+  color: white;
+}
+
+footer {
+  background-color: #1b1b1b;
+}
+footer p {
+  padding: 2.5rem 0;
+  text-align: center;
+  font: 1.2rem/3.5rem 'Open Sans';
+  color: #006489;
 }

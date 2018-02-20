@@ -4,6 +4,8 @@ html {
 body {
 	font-size: 1.5rem;
 	font-family: 'Open Sans';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 a {
 	text-decoration: none;
@@ -28,6 +30,14 @@ header {
 		span {
 			color: $slate;
 		}
+		&:before {
+			position: absolute;
+			content: "";
+			top:0;
+			right: 75%;
+			left:0;
+			height: 100px;
+		}
 	}
 	.logo {
 		width: 70%;
@@ -51,4 +61,12 @@ header {
 			}
 		}
 	}
+}
+.home-banner {
+	padding: 5.1rem 2.1rem;
+	background-color: $lab-blue;
+	text-align: center;
+	font: 400 3rem/1.25em 'Roboto';
+	letter-spacing: .2rem;
+	color: white;
 }
