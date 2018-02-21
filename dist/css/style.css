@@ -3826,6 +3826,11 @@ header nav ul li:not(.dropdown-menu) a {
 .container img {
   padding-top: 4rem;
 }
+.container p {
+  font: 1.5rem/1.46 'Open Sans', sans-serif;
+  color: #737373;
+  padding-top: .5rem;
+}
 
 h3 {
   font: 3rem/1.38 'Roboto Condensed', sans-serif;
@@ -3835,6 +3840,13 @@ h3 {
   display: inline-block;
   border-bottom: 2px solid #006489;
   width: 60%;
+}
+
+h6 {
+  font: 600 2rem 'Roboto Condensed', sans-serif;
+  color: #1b1b1b;
+  text-transform: uppercase;
+  padding-top: 4rem;
 }
 
 footer {

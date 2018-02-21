@@ -79,6 +79,11 @@ header {
 	img {
 		padding-top: 4rem;
 	}
+	p {
+		font: 1.5rem/1.46 'Open Sans', sans-serif;
+		color: $another-gray;
+		padding-top: .5rem;
+	}
 }
 h3 {
 	font: 3rem/1.38 'Roboto Condensed', sans-serif;
@@ -88,4 +93,10 @@ h3 {
 	display: inline-block;
 	border-bottom: 2px solid $slate;
 	width: 60%;
+}
+h6 {
+	font: 600 2rem 'Roboto Condensed', sans-serif;
+	color: $almost-black;
+	text-transform: uppercase;
+	padding-top: 4rem;
 }
