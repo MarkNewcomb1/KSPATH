@@ -74,6 +74,8 @@ header {
 	padding: 5.1rem 2.1rem;
 	display: flex;
 	flex-flow: column nowrap;
+	background-color: $light-background;
+	align-items: flex-start;
 	img {
 		padding-top: 4rem;
 	}

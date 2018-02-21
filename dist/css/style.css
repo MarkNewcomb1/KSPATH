@@ -3706,19 +3706,19 @@ readers do not read off random characters that represent icons */
 
 .unslider-nav ol li {
   display: inline-block;
-  width: 6px;
-  height: 6px;
-  margin: 0 4px;
-  background: transparent;
-  border-radius: 5px;
+  width: 8px;
+  height: 8px;
+  margin: 0 3px;
+  background: white;
+  opacity: .4;
+  border-radius: 10px;
   overflow: hidden;
   text-indent: -999em;
-  border: 2px solid #fff;
   cursor: pointer;
 }
 
 .unslider-nav ol li.unslider-active {
-  background: #fff;
+  opacity: 1;
   cursor: default;
 }
 
@@ -3818,6 +3818,10 @@ header nav ul li:not(.dropdown-menu) a {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
+  background-color: #f6f6f6;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 .container img {
   padding-top: 4rem;
