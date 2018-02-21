@@ -70,3 +70,18 @@ header {
 	letter-spacing: .2rem;
 	color: white;
 }
+.container {
+	padding: 5.1rem 2.1rem;
+	img {
+		padding-top: 4rem;
+	}
+}
+h3 {
+	font: 3rem/1.38 'Roboto Condensed', sans-serif;
+	color: $slate;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	display: inline-block;
+	padding-right: 42px;
+	border-bottom: 2px solid $slate;
+}

@@ -3591,6 +3591,141 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
+.unslider {
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.unslider-wrap {
+  position: relative;
+}
+
+.unslider-wrap.unslider-carousel > li {
+  float: left;
+}
+
+.unslider-vertical > ul {
+  height: 100%;
+}
+
+.unslider-vertical li {
+  float: none;
+  width: 100%;
+}
+
+.unslider-fade {
+  position: relative;
+}
+
+.unslider-fade .unslider-wrap li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 8;
+}
+
+.unslider-fade .unslider-wrap li.unslider-active {
+  z-index: 10;
+}
+
+.unslider li, .unslider ol, .unslider ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.unslider-arrow {
+  position: absolute;
+  left: 20px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.unslider-arrow.next {
+  left: auto;
+  right: 20px;
+}
+
+.unslider li {
+  position: relative;
+}
+.unslider .text-inside-slider {
+  position: absolute;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 2.1rem;
+}
+.unslider .text-inside-slider h2 {
+  font: 700 2.31rem/1.5 'Roboto', sans-serif;
+  color: #006489;
+  text-transform: uppercase;
+  text-align: center;
+}
+.unslider .text-inside-slider p {
+  font: 1.6rem/1.5 'Open Sans', sans-serif;
+  color: #737373;
+  text-align: center;
+  padding-top: 1rem;
+}
+.unslider img {
+  max-height: 450px;
+}
+
+/**
+ *   Here's where everything gets included. You don't need
+ *   to change anything here, and doing so might break
+ *   stuff. Here be dragons and all that.
+ */
+/**
+ *   Default variables
+ *
+ *   While these can be set with JavaScript, it's probably
+ *   better and faster to just set them here, compile to
+ *   CSS and include that instead to use some of that
+ *   hardware-accelerated goodness.
+ */
+.unslider-nav ol {
+  list-style: none;
+  text-align: center;
+}
+
+.unslider-nav ol li {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 4px;
+  background: transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  text-indent: -999em;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.unslider-nav ol li.unslider-active {
+  background: #fff;
+  cursor: default;
+}
+
+.unslider-nav {
+  margin-top: -17px;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -3670,6 +3805,23 @@ header nav ul li:not(.dropdown-menu) a {
   font: 400 3rem/1.25em 'Roboto';
   letter-spacing: .2rem;
   color: white;
+}
+
+.container {
+  padding: 5.1rem 2.1rem;
+}
+.container img {
+  padding-top: 4rem;
+}
+
+h3 {
+  font: 3rem/1.38 'Roboto Condensed', sans-serif;
+  color: #006489;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  display: inline-block;
+  padding-right: 42px;
+  border-bottom: 2px solid #006489;
 }
 
 footer {
