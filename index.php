@@ -5,12 +5,13 @@ include 'header.php';
 
 <!-- Slider starts -->
 	<script>
-		jQuery(document).ready(function($) {
+		jQuery(document).ready(function($) {			
 			$('.slider').unslider({
 				autoplay: true,
 				arrows: false,
 				delay: 7000
 			});
+		$('.slider').unslider('initSwipe');
 		});
 	</script>
     <div class="slider">

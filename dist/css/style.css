@@ -3724,6 +3724,8 @@ readers do not read off random characters that represent icons */
 
 .unslider-nav {
   margin-top: -17px;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
 }
 
 html {
@@ -3809,6 +3811,13 @@ header nav ul li:not(.dropdown-menu) a {
 
 .container {
   padding: 5.1rem 2.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
 .container img {
   padding-top: 4rem;
@@ -3820,8 +3829,8 @@ h3 {
   text-transform: uppercase;
   padding-bottom: 10px;
   display: inline-block;
-  padding-right: 42px;
   border-bottom: 2px solid #006489;
+  width: 60%;
 }
 
 footer {
