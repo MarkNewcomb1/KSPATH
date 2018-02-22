@@ -3649,6 +3649,9 @@ readers do not read off random characters that represent icons */
   right: 20px;
 }
 
+.unslider {
+  overflow-y: hidden;
+}
 .unslider li {
   position: relative;
 }
@@ -3670,6 +3673,11 @@ readers do not read off random characters that represent icons */
           justify-content: center;
   padding: 0 2.1rem;
 }
+@media (min-width: 1025px) {
+  .unslider .text-inside-slider {
+    width: 100%;
+  }
+}
 .unslider .text-inside-slider h2 {
   font: 700 2.31rem/1.5 'Roboto', sans-serif;
   color: #006489;
@@ -3682,8 +3690,19 @@ readers do not read off random characters that represent icons */
   text-align: center;
   padding-top: 1rem;
 }
+@media (min-width: 1025px) {
+  .unslider .text-inside-slider p {
+    max-width: 1118px;
+  }
+}
 .unslider img {
   max-height: 450px;
+}
+@media (min-width: 1025px) {
+  .unslider img {
+    max-height: inherit;
+    width: 100%;
+  }
 }
 
 /**
@@ -3779,11 +3798,24 @@ header .mobile_menu_button:before {
   left: 0;
   height: 100px;
 }
+@media (min-width: 1025px) {
+  header .mobile_menu_button {
+    display: none;
+  }
+}
 header .logo {
   width: 70%;
 }
 header .logo img {
   max-width: 147px;
+}
+@media (min-width: 768px) {
+  header .mobile_menu_button {
+    width: 42%;
+  }
+  header .logo {
+    width: auto;
+  }
 }
 header nav {
   width: 100%;
@@ -3792,12 +3824,55 @@ header nav {
 header nav ul li:not(.dropdown-menu) {
   border-bottom: 1px solid #eaeaea;
 }
+@media (min-width: 1025px) {
+  header nav ul li:not(.dropdown-menu) {
+    border: none;
+  }
+}
 header nav ul li:not(.dropdown-menu) a {
   display: block;
   padding: 1rem 0;
   color: #888;
   font-size: 1.3rem;
   line-height: 2;
+  -webkit-transition: opacity .3s ease-in-out,color .3s ease-in-out;
+  transition: opacity .3s ease-in-out,color .3s ease-in-out;
+}
+header nav ul li:not(.dropdown-menu) a:hover {
+  opacity: .8;
+}
+@media (min-width: 1025px) {
+  header nav ul li:not(.dropdown-menu) a {
+    font: 1.4rem 'Roboto Condensed', sans-serif;
+    color: #006489;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 1.5rem;
+  }
+}
+@media (min-width: 1025px) {
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media (min-width: 1025px) {
+  header nav {
+    width: auto;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 848px;
+            flex: 1 1 848px;
+  }
+}
+@media (min-width: 1025px) {
+  header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
 
 .home-banner {
@@ -3809,6 +3884,10 @@ header nav ul li:not(.dropdown-menu) a {
   color: white;
 }
 
+.outer-wrapper {
+  background-color: #f6f6f6;
+}
+
 .container {
   padding: 5.1rem 2.1rem;
   display: -webkit-box;
@@ -3818,18 +3897,51 @@ header nav ul li:not(.dropdown-menu) a {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  background-color: #f6f6f6;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
 }
 .container img {
+  max-width: 100%;
   padding-top: 4rem;
 }
 .container p {
   font: 1.5rem/1.46 'Open Sans', sans-serif;
   color: #737373;
   padding-top: .5rem;
+}
+@media (min-width: 1024px) {
+  .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    padding-bottom: 9rem;
+  }
+}
+@media (min-width: 1025px) {
+  .container {
+    max-width: 1118px;
+    margin: 0 auto;
+  }
+}
+
+.col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+@media (min-width: 1024px) {
+  .col:first-of-type {
+    padding-right: 10rem;
+  }
 }
 
 h3 {
@@ -3840,6 +3952,11 @@ h3 {
   display: inline-block;
   border-bottom: 2px solid #006489;
   width: 60%;
+}
+@media (min-width: 768px) {
+  h3 {
+    width: 201px;
+  }
 }
 
 h6 {

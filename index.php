@@ -48,21 +48,27 @@ include 'header.php';
 	Quality Commitment
 </div> <!-- home banner -->
 
-<div class="container" id="maincontent">
-<h3>What We Do</h3>
-<img src="img/Microscope.gif">
-                <h6>Stat Testing</h6>
-                <p>Available on request for most tests. Please Client Service for detailed information on submission, delivery, and reporting.</p> 
 
-                <h6>Call back Testing</h6>
-                <p>Available on request. Specimens will be collected and processed as ROUTINE; however results will be called upon completion.</p> 
- 
-                <h6>Routine Testing</h6>
-                <p>will be collected and the test performed within 2 to 24 hours of receipt at KPS, unless otherwise at a predetermined time.</p> 
-    
-                <h6>Test Reporting</h6>
-        <p>Written/electronic results are sent the quickest way possible, usually by Fax. On request, a report will be telephoned, then written.</p>  
+
+<div class="outer-wrapper">
+<div class="container" id="maincontent">
+	<div class="col">	
+		<h3>What We Do</h3>
+		<img src="img/Microscope.gif">
+	</div> <!-- col -->
+    <div class="col">
+		<h6>Stat Testing</h6>
+	    <p>Available on request for most tests. Please Client Service for detailed information on submission, delivery, and reporting.</p> 
+	    <h6>Call back Testing</h6>
+	    <p>Available on request. Specimens will be collected and processed as ROUTINE; however results will be called upon completion.</p> 
+	    <h6>Routine Testing</h6>
+	    <p>will be collected and the test performed within 2 to 24 hours of receipt at KPS, unless otherwise at a predetermined time.</p> 
+	    <h6>Test Reporting</h6>
+	    <p>Written/electronic results are sent the quickest way possible, usually by Fax. On request, a report will be telephoned, then written.</p>
+    </div> <!-- col -->     
 </div> <!-- container -->
+</div> <!-- outer wrapper to maintain background color when container width isn't 100% -->
+
 <?php
 include 'footer.php';
 ?>

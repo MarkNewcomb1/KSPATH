@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	console.log("Hi there.");
+if ($(window).width() < 1025) {
 	$('header nav').hide();
 	$('.mobile_menu_button').on('click', function(){
 		console.log("CLICK");
@@ -9,6 +9,7 @@ $(document).ready(function(){
 			$('header nav').slideUp(200);
 		}
 	}); //on click
+} // end if	
 });
 // DOM.event.move
 //

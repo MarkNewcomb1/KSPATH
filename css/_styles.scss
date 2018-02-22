@@ -38,11 +38,22 @@ header {
 			left:0;
 			height: 100px;
 		}
+		@media (min-width: 1025px) {
+			display: none;
+		}
 	}
 	.logo {
 		width: 70%;
 		img {
 			max-width: 147px;
+		}
+	}
+	@media (min-width:768px) {
+		.mobile_menu_button {
+			width: 42%;
+		}
+		.logo {
+			width: auto;
 		}
 	}
 	nav {
@@ -51,15 +62,41 @@ header {
 		ul {
 			li:not(.dropdown-menu) {
 				border-bottom: 1px solid $light-gray;
+				@media (min-width: 1025px) {
+					border: none;
+				}
 				a {
 					display: block;
 					padding: 1rem 0;
 					color: $gray;
 					font-size:1.3rem;
 					line-height: 2;
+					transition: opacity .3s ease-in-out,color .3s ease-in-out;
+					&:hover {
+						opacity: .8;
+					}
+					@media (min-width: 1025px) {
+						font: 1.4rem 'Roboto Condensed', sans-serif;
+						color: $slate;
+						letter-spacing: 1px;
+						text-transform: uppercase;
+						padding-left: 1.5rem;
+					}
 				}
 			}
+			@media (min-width: 1025px) {
+				display: flex;
+			}
 		}
+		@media (min-width: 1025px) {
+			width: auto;
+			flex: 1 1 848px;
+		}
+	}
+	@media (min-width: 1025px) {
+		justify-content: space-between;
+		max-width: 1200px;
+		margin: 0 auto;
 	}
 }
 .home-banner {
@@ -70,19 +107,40 @@ header {
 	letter-spacing: .2rem;
 	color: white;
 }
+.outer-wrapper {
+	background-color: $light-background;	
+}
 .container {
 	padding: 5.1rem 2.1rem;
 	display: flex;
 	flex-flow: column nowrap;
-	background-color: $light-background;
 	align-items: flex-start;
 	img {
+		max-width: 100%;
 		padding-top: 4rem;
 	}
 	p {
 		font: 1.5rem/1.46 'Open Sans', sans-serif;
 		color: $another-gray;
 		padding-top: .5rem;
+	}
+	@media (min-width: 1024px) {
+		flex-flow: row nowrap;
+		align-items: baseline;
+		padding-bottom: 9rem;
+	}
+	@media (min-width: 1025px) {
+		max-width: 1118px;
+		margin: 0 auto;
+	}
+}
+.col {
+	display: flex;
+	flex-flow: column nowrap;
+	@media (min-width: 1024px) {
+		&:first-of-type {
+			padding-right: 10rem;
+		}
 	}
 }
 h3 {
@@ -93,6 +151,9 @@ h3 {
 	display: inline-block;
 	border-bottom: 2px solid $slate;
 	width: 60%;
+	@media (min-width: 768px) {
+		width: 201px;
+	}
 }
 h6 {
 	font: 600 2rem 'Roboto Condensed', sans-serif;
