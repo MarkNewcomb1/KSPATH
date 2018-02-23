@@ -60,7 +60,7 @@ header {
 		width: 100%;
 		padding: 1.5rem 0 1rem 0;
 		ul {
-			li:not(.dropdown-menu) {
+			li {
 				border-bottom: 1px solid $light-gray;
 				@media (min-width: 1025px) {
 					border: none;
@@ -80,7 +80,7 @@ header {
 						color: $slate;
 						letter-spacing: 1px;
 						text-transform: uppercase;
-						padding-left: 1.5rem;
+						padding-left: 3.4rem;
 					}
 				}
 			}
@@ -90,12 +90,11 @@ header {
 		}
 		@media (min-width: 1025px) {
 			width: auto;
-			flex: 1 1 848px;
 		}
 	}
 	@media (min-width: 1025px) {
 		justify-content: space-between;
-		max-width: 1200px;
+		max-width: 1118px;
 		margin: 0 auto;
 	}
 }
@@ -106,6 +105,28 @@ header {
 	font: 400 3rem/1.25em 'Roboto';
 	letter-spacing: .2rem;
 	color: white;
+}
+.subpage-banner {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	background-image: url(../../img/subpage-banner.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	z-index: 101;
+	height: 90px;
+	h1 {
+		font: 4rem/1.1 'Roboto', sans-serif;
+		text-transform: uppercase;
+		color: $link-color;
+	}
+	@media (min-width: 768px) {
+		height: 185px;
+	}
+	@media (min-width: 1024px) {
+		height: 200px;
+	}
 }
 .outer-wrapper {
 	background-color: $light-background;	
@@ -118,11 +139,15 @@ header {
 	img {
 		max-width: 100%;
 		padding-top: 4rem;
+		align-self: flex-start;
 	}
 	p {
 		font: 1.5rem/1.46 'Open Sans', sans-serif;
 		color: $another-gray;
 		padding-top: .5rem;
+		@at-root .container.about-us p {
+			padding-top: 2.5rem;
+		}
 	}
 	@media (min-width: 1024px) {
 		flex-flow: row nowrap;
@@ -142,6 +167,9 @@ header {
 			padding-right: 10rem;
 		}
 	}
+	@at-root .contactus .col {
+		width: 100%;
+	}
 }
 h3 {
 	font: 3rem/1.38 'Roboto Condensed', sans-serif;
@@ -155,9 +183,29 @@ h3 {
 		width: 201px;
 	}
 }
-h6 {
+h6, .schema {
 	font: 600 2rem 'Roboto Condensed', sans-serif;
 	color: $almost-black;
 	text-transform: uppercase;
 	padding-top: 4rem;
+}
+.google-maps {
+    position: relative;
+    margin-top: 4rem;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+	    iframe {
+	        position: absolute;
+	        top: 0;
+	        left: 0;
+	        width: 100% !important;
+	        height: 100% !important;
+	    }
+    }
+.schema {
+	span {
+		display: inline-block;
+		margin-top: .5rem;
+	}
 }
