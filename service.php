@@ -10,7 +10,7 @@ include 'header.php';
 
 <div class="outer-wrapper">
 <div class="container" id="maincontent">
-    <div class="col">
+    <div class="col forms">
 <h6>Improving the value</h6>
 <p>of testing to the patient and assuring that the test results actually improve patient care and patient outcomes is the goal of our quality assurance program. Even correct answers are useless if they arrive late or are not interpreted correctly. Our QA Coordinator is a board-certified pathologist. The QA Committee Chairman is the Medical Laboratory Director.</p>
 

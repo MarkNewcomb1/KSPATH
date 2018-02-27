@@ -117,7 +117,10 @@ header {
 	z-index: 101;
 	height: 90px;
 	h1 {
-		font: 4rem/1.1 'Roboto', sans-serif;
+		font: 3rem/1.1 'Roboto', sans-serif;
+		@media (min-width: 768px) {
+			font-size: 4rem;
+		}
 		text-transform: uppercase;
 		color: $link-color;
 	}
@@ -130,6 +133,10 @@ header {
 }
 .outer-wrapper {
 	background-color: $light-background;	
+	min-height: 60vh;
+	@media (min-width: 768px) and (max-width: 1024px) {
+		min-height: 72vh;
+	}
 }
 .container {
 	padding: 5.1rem 2.1rem;
@@ -170,6 +177,9 @@ header {
 	@at-root .contactus .col {
 		width: 100%;
 	}
+	@at-root .forms.col {
+		align-items: baseline;
+	}
 }
 h3 {
 	font: 3rem/1.38 'Roboto Condensed', sans-serif;
@@ -207,5 +217,26 @@ h6, .schema {
 	span {
 		display: inline-block;
 		margin-top: .5rem;
+	}
+}
+.button {
+	display: inline-block;
+	white-space: nowrap;
+	text-transform: uppercase;
+	padding: 0 2.3rem;
+		@at-root .contactus .button {
+			margin-top: 2rem;
+		}
+	letter-spacing: 1px;
+	width: auto;
+	font: 1.2rem/3 'Open Sans', sans-serif;
+	color: white;
+	border-radius: .5rem;
+	border: .2rem solid $link-color;
+	background-color: $link-color;
+	transition: color .1s linear,background-color .1s linear,border-color .1s linear;
+	&:hover {
+		border-color: $hover-button;
+		background-color: $hover-button;
 	}
 }
