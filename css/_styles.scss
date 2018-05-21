@@ -1,0 +1,242 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.5rem;
+	font-family: 'Open Sans';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+a {
+	text-decoration: none;
+	color: $link-color;
+}
+#offscreen {
+	left: -9999em;
+	position: absolute;
+	top: auto;
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+}
+header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1rem 1.5rem;
+	position: relative;
+	.mobile_menu_button {
+		width: 30%;
+		span {
+			color: $slate;
+		}
+		&:before {
+			position: absolute;
+			content: "";
+			top:0;
+			right: 75%;
+			left:0;
+			height: 100px;
+		}
+		@media (min-width: 1025px) {
+			display: none;
+		}
+	}
+	.logo {
+		width: 70%;
+		img {
+			max-width: 147px;
+		}
+	}
+	@media (min-width:768px) {
+		.mobile_menu_button {
+			width: 42%;
+		}
+		.logo {
+			width: auto;
+		}
+	}
+	nav {
+		width: 100%;
+		padding: 1.5rem 0 1rem 0;
+		ul {
+			li {
+				border-bottom: 1px solid $light-gray;
+				@media (min-width: 1025px) {
+					border: none;
+				}
+				a {
+					display: block;
+					padding: 1rem 0;
+					color: $gray;
+					font-size:1.3rem;
+					line-height: 2;
+					transition: opacity .3s ease-in-out,color .3s ease-in-out;
+					&:hover {
+						opacity: .8;
+					}
+					@media (min-width: 1025px) {
+						font: 1.4rem 'Roboto Condensed', sans-serif;
+						color: $slate;
+						letter-spacing: 1px;
+						text-transform: uppercase;
+						padding-left: 3.4rem;
+					}
+				}
+			}
+			@media (min-width: 1025px) {
+				display: flex;
+			}
+		}
+		@media (min-width: 1025px) {
+			width: auto;
+		}
+	}
+	@media (min-width: 1025px) {
+		justify-content: space-between;
+		max-width: 1118px;
+		margin: 0 auto;
+	}
+}
+.home-banner {
+	padding: 5.1rem 2.1rem;
+	background-color: $lab-blue;
+	text-align: center;
+	font: 400 3rem/1.25em 'Roboto';
+	letter-spacing: .2rem;
+	color: white;
+}
+.subpage-banner {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	background-image: url(../../img/subpage-banner.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	z-index: 101;
+	height: 90px;
+	h1 {
+		font: 3rem/1.1 'Roboto', sans-serif;
+		@media (min-width: 768px) {
+			font-size: 4rem;
+		}
+		text-transform: uppercase;
+		color: $link-color;
+	}
+	@media (min-width: 768px) {
+		height: 185px;
+	}
+	@media (min-width: 1024px) {
+		height: 200px;
+	}
+}
+.outer-wrapper {
+	background-color: $light-background;	
+	min-height: 60vh;
+	@media (min-width: 768px) and (max-width: 1024px) {
+		min-height: 72vh;
+	}
+}
+.container {
+	padding: 5.1rem 2.1rem;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+	img {
+		max-width: 100%;
+		padding-top: 4rem;
+		align-self: flex-start;
+	}
+	p {
+		font: 1.5rem/1.46 'Open Sans', sans-serif;
+		color: $another-gray;
+		padding-top: .5rem;
+		@at-root .container.about-us p {
+			padding-top: 2.5rem;
+		}
+	}
+	@media (min-width: 1024px) {
+		flex-flow: row nowrap;
+		align-items: baseline;
+		padding-bottom: 9rem;
+	}
+	@media (min-width: 1025px) {
+		max-width: 1118px;
+		margin: 0 auto;
+	}
+}
+.col {
+	display: flex;
+	flex-flow: column nowrap;
+	@media (min-width: 1024px) {
+		&:first-of-type {
+			padding-right: 10rem;
+		}
+	}
+	@at-root .contactus .col {
+		width: 100%;
+	}
+	@at-root .forms.col {
+		align-items: baseline;
+	}
+}
+h3 {
+	font: 3rem/1.38 'Roboto Condensed', sans-serif;
+	color: $slate;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	display: inline-block;
+	border-bottom: 2px solid $slate;
+	width: 72%;
+	@media (min-width: 768px) {
+		width: 201px;
+	}
+}
+h6, .schema {
+	font: 600 2rem 'Roboto Condensed', sans-serif;
+	color: $almost-black;
+	text-transform: uppercase;
+	padding-top: 4rem;
+}
+.google-maps {
+    position: relative;
+    margin-top: 4rem;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+	    iframe {
+	        position: absolute;
+	        top: 0;
+	        left: 0;
+	        width: 100% !important;
+	        height: 100% !important;
+	    }
+    }
+.schema {
+	span {
+		display: inline-block;
+		margin-top: .5rem;
+	}
+}
+.button {
+	display: inline-block;
+	white-space: nowrap;
+	text-transform: uppercase;
+	padding: 0 2.3rem;
+		@at-root .contactus .button {
+			margin-top: 2rem;
+		}
+	letter-spacing: 1px;
+	width: auto;
+	font: 1.2rem/3 'Open Sans', sans-serif;
+	color: white;
+	border-radius: .5rem;
+	border: .2rem solid $link-color;
+	background-color: $link-color;
+	transition: color .1s linear,background-color .1s linear,border-color .1s linear;
+	&:hover {
+		border-color: $hover-button;
+		background-color: $hover-button;
+	}
+}

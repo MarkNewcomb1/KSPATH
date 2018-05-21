@@ -1,0 +1,5 @@
+open three terminal windows. (start running mamp)
+
+1. is for your git statuses and commits
+2. is for gulping your sass (cd into directory, gulp)
+3. is for browsersync. browser-sync start --proxy "localhost:8080" --serveStatic "public" --files "dist/css/style.min.css"
