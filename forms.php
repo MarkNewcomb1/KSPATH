@@ -13,7 +13,7 @@ include 'header.php';
     <div class="col forms">
 	    <h6>Download a copy of our latest CLIA certificate below</h6>
   <br>
-  <a class="button" href="docs/CLIA-Certificate-Exp-6-23-2016.pdf">Download</a>
+  <a class="button" href="docs/CLIA-2018.pdf">Download</a>
   
 	    <h6>Download a copy of the KPS ABN Form below</h6>
   <br>
