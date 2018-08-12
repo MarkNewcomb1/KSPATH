@@ -29,7 +29,7 @@
 <nav role="navigation">
 	<ul>
 		<li><a href="certificates.php">CLIA/CAP Certificates</a></li>
-		<li><a target="_blank" href="http://www.amsreferencelab.com/">Test Catalog</a></li>
+		<li><a href="http://kspath.ppi.net/testcatalog/">Test Catalog</a></li>
 		<li><a href="forms.php">Forms</a></li>
 	     <li><a href="service.php">Customer Service</a></li>
          <li><a href="aboutus.php">Who We Are</a></li>
