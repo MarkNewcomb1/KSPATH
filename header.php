@@ -25,11 +25,11 @@
 	<div id="offscreen"><a href="#maincontent">Skip to the main content</a></div>
 <header>
 	<div class="mobile_menu_button"><span><i class="fa fa-bars"></i></span></div>
-<a href="/index.php" class="logo"><img src='img/KPS-LLC-Logo-in-Blue.gif'></a>
+<a href="/" class="logo"><img src='img/KPS-LLC-Logo-in-Blue.gif'></a>
 <nav role="navigation">
 	<ul>
 		<li><a href="certificates.php">CLIA/CAP Certificates</a></li>
-		<li><a target="_blank" href="http://www.amsreferencelab.com/">Test Catalog</a></li>
+		<li><a href="http://kspath.ppi.net/testcatalog/">Test Catalog</a></li>
 		<li><a href="forms.php">Forms</a></li>
 	     <li><a href="service.php">Customer Service</a></li>
          <li><a href="aboutus.php">Who We Are</a></li>
