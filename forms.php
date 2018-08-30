@@ -35,6 +35,10 @@ include 'header.php';
   <br>
   <a class="button" href="docs/bcbs-waiver-list.pdf">Download</a>  
   
+  <h6>Download a copy of the Manual Requisition</h6>
+  <br>
+  <a class="button" href="docs/manual-requisition.docx">Download</a> 
+  
 </div> <!-- schema -->
     </div> <!-- col --> 
 </div> <!-- container -->
