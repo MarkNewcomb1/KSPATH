@@ -17,7 +17,7 @@ include 'header.php';
   
 	    <h6>Download a copy of the KPS ABN Form below</h6>
   <br>
-  <a class="button" href="docs/abn-form-8-24-18.rtf">Download</a>  
+  <a class="button" href="docs/abn-form-2019.pdf">Download</a>  
   
 	    <h6>Download a copy of the KPS ABN Booklet below</h6>
   <br>
@@ -29,7 +29,7 @@ include 'header.php';
   
 	    <h6>Download a copy of the KPS BCBS Waiver with Witnessed Refusal document below</h6>
   <br>
-  <a class="button" href="docs/KPS_BCBS_Waiver_with_Refusal.pdf">Download</a>    
+  <a class="button" href="docs/bcbs-waiver-2019.pdf">Download</a>    
     
 	    <h6>Download a copy of the BCBS Waiver List</h6>
   <br>
@@ -38,6 +38,10 @@ include 'header.php';
   <h6>Download a copy of the Manual Requisition</h6>
   <br>
   <a class="button" href="docs/manual-requisition-2019.docx">Download</a> 
+  
+  <h6>Download a copy of the Lab Nexus Procedure</h6>
+  <br>
+  <a class="button" href="docs/labnexus-procedure.pdf">Download</a> 
   
 </div> <!-- schema -->
     </div> <!-- col --> 

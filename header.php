@@ -28,7 +28,7 @@
 <a href="/" class="logo"><img src='img/KPS-LLC-Logo-in-Blue.gif'></a>
 <nav role="navigation">
 	<ul>
-		<li><a href="certificates.php">CLIA/CAP Certificates</a></li>
+		<li><a href="resources.php">Resources</a></li>
 		<li><a href="http://kspath.ppi.net/testcatalog/">Test Catalog</a></li>
 		<li><a href="forms.php">Forms</a></li>
 	     <li><a href="service.php">Customer Service</a></li>
