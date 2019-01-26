@@ -14,11 +14,11 @@ include 'header.php';
 	    <h3>Resources</h3>
 	    <h6>CMS website for ABN code checks:</h6>
 
-<a href="https://www.cms.gov/Medicare/Coverage/CoverageGenInfo/LabNCDsICD10.html" target="_blank">https://www.cms.gov/Medicare/Coverage/CoverageGenInfo/LabNCDsICD10.html</a>
+<a href="https://www.cms.gov/Medicare/Coverage/CoverageGenInfo/LabNCDsICD10.html" target="_blank">Click here</a>
 
 <h6>Check Vitamin D codes:</h6>
 
-<a href="https://www.cms.gov/medicare-coverage-database/license/cpt-license.aspx?from=~/overview-and-quick-search.aspx&npage=/medicare-coverage-database/details/lcd-details.aspx&LCDId=34658&ContrId=148" target="_blank">https://www.cms.gov/medicare-coverage-database/license/cpt-license.aspx?from=~/overview-and-quick-search.aspx&npage=/medicare-coverage-database/details/lcd-details.aspx&LCDId=34658&ContrId=148</a>
+<a href="https://www.cms.gov/medicare-coverage-database/license/cpt-license.aspx?from=~/overview-and-quick-search.aspx&npage=/medicare-coverage-database/details/lcd-details.aspx&LCDId=34658&ContrId=148" target="_blank">Click here</a>
 
 
     </div> <!-- col --> 
