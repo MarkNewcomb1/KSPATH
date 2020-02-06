@@ -240,3 +240,11 @@ h6, .schema {
 		background-color: $hover-button;
 	}
 }
+
+a#patient-payment-portal {
+	position: absolute;
+	right: 0;
+	z-index: 1;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
