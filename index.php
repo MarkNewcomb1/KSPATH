@@ -16,6 +16,7 @@ include 'header.php';
 	</script>
     <div class="slider">
 	    <a class="button" href="https://paylink.paytrace.com?m=80710&amp;amount=&amp;invoice=" style="position: absolute; right: 0; z-index: 1; font-size: 1.5rem; cursor: pointer;" target="_blank">Patient Payment Portal</a>
+	    <a class="button" href="docs/covid.pdf" style="position: absolute; left: 17%; top:12%; z-index: 1; font-size: 2.5rem; cursor: pointer;">COVID-19 FAQ</a>
 	   <ul> 
            	<li>
            		<div class="text-inside-slider"><h2>Quality Commitment</h2>
