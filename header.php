@@ -9,7 +9,7 @@
   <meta name="keywords" content="Kansas Pathology">
 <!--   jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="dist/js/main.min.js"></script>
+  <script src="/js/main.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,500,700|Roboto+Condensed|Roboto+Slab" rel="stylesheet" type='text/css'>
   <!-- Stylesheets -->
   <link href="dist/css/style.min.css" rel="stylesheet">
