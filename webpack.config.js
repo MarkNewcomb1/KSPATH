@@ -2,38 +2,31 @@ const path = require('path');
 
 module.exports = {
 	mode: 'development',
-	entry: {
-		app: './index.js',
-	},
+	entry: [
+		__dirname + '/js/app.js',
+        __dirname + '/css/style.scss'
+	],
+	output: {
+        path: path.resolve(__dirname, 'dist'), 
+        filename: 'js/app.min.js',
+    },
 	module: {
 		rules: [
-			{
-				test: /\.s[ac]ss$/i,
-				use: [
-					// Creates `style` nodes from JS strings
-					'style-loader',
-					// Translates CSS into CommonJS
-					'css-loader',
-					// Compiles Sass to CSS
-					'sass-loader',
-				],
-			},
-			{
-				test: /\.(woff|woff2|eot|ttf|otf)$/,
-				loader: "file-loader"
-			},
-			{
-				test: /\.(png|jpe?g|gif)$/i,
-				use: [
-					{
-						loader: 'file-loader',
-					},
-				],
-			},
-			{
-				test: /\.svg$/,
-				loader: 'svg-inline-loader'
-			}
-		],
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: [],
+            }, {
+                test: /\.scss$/,
+                exclude: /node_modules/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: { outputPath: 'css/', name: '[name].min.css'}
+                    },
+                    'sass-loader'
+                ]
+            }
+        ]
 	},
 };
