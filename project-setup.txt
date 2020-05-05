@@ -1,5 +1,5 @@
-open three terminal windows. (start running mamp)
+open a terminal windows (start running mamp)
 
-1. is for your git statuses and commits
-2. is for gulping your sass (cd into directory, gulp)
-3. is for browsersync. browser-sync start --proxy "localhost:8080" --serveStatic "public" --files "dist/css/style.min.css"
+1. any change you make to your css, make it in the root /css folder. You'll see .scss (SASS) files.
+2. After you make your change, type npm run build. 
+3. The resulting compilied css will be in dist/css/style.min.css 

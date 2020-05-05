@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  },
   "devDependencies": {
     "file-loader": "^6.0.0",
     "node-sass": "^4.13.1",
@@ -14,8 +16,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --open",
-    "build": "webpack"
+    "build": "webpack && rimraf dist/main.js"
   },
   "author": "",
   "license": "ISC"
