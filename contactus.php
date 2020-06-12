@@ -23,7 +23,7 @@ include 'header.php';
     <span itemprop="addressRegion">KS</span> <span itemprop="postalCode">67601</span>
   </div>
   P: <span itemprop="telephone"><a href="tel:785-625-5026">(785) 625-5026</a></span><br>
-  Fax: <span itemprop="faxNumber">(785) 625-5028</span>
+  Fax: <span itemprop="faxNumber">(785) 625-4418</span>
   <br>
   <a class="button" href="mailto:sales@kspath.com">EMAIL</a>
 </div> <!-- schema -->
