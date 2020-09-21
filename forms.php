@@ -13,11 +13,11 @@ include 'header.php';
     <div class="col forms">
 	    <h6>Download a copy of our latest CLIA certificate below</h6>
   <br>
-  <a class="button" href="docs/clia-6-2020.pdf">Download</a>
+  <a class="button" href="docs/clia-8-2020.pdf">Download</a>
   
 	    <h6>Download a copy of the KPS ABN Form below</h6>
   <br>
-  <a class="button" href="docs/abn-form-2019.pdf">Download</a>  
+  <a class="button" href="docs/abn-form-2020.pdf">Download</a>  
   
 	    <h6>Download a copy of the KPS ABN Booklet below</h6>
   <br>
