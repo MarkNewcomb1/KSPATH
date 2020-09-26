@@ -18,7 +18,8 @@ include 'header.php';
 
 <h6>Check Vitamin D codes:</h6>
 
-<a href="https://www.cms.gov/medicare-coverage-database/license/cpt-license.aspx?from=~/overview-and-quick-search.aspx&npage=/medicare-coverage-database/details/lcd-details.aspx&LCDId=34658&ContrId=148" target="_blank">Click here</a>
+<a href="https://www.cms.gov/medicare-coverage-database/details/article-details.aspx?articleId=56485&ver=10&LCDId=33418&bc=AAAAAAABAAAA&
+" target="_blank">Click here</a>
 
 
     </div> <!-- col --> 

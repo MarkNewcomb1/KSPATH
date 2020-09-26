@@ -11,9 +11,12 @@ include 'header.php';
 <div class="outer-wrapper">
 <div class="container" id="maincontent">
     <div class="col forms">
-	    <h6>Download a copy of our latest CLIA certificate below</h6>
+	    <h6>Download a copy of our latest CLIA certificate below for KPS Hays, KS</h6>
   <br>
   <a class="button" href="docs/clia-8-2020.pdf">Download</a>
+  	    <h6>Download a copy of our latest CLIA certificate below for KPS Wichita, KS</h6>
+  <br>
+  <a class="button" href="docs/clia-wichita.pdf">Download</a>
   
 	    <h6>Download a copy of the KPS ABN Form below</h6>
   <br>
