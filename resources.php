@@ -14,7 +14,7 @@ include 'header.php';
 	    <h3>Resources</h3>
 	    <h6>CMS website for ABN code checks:</h6>
 
-<a href="https://www.cms.gov/Medicare/Coverage/CoverageGenInfo/LabNCDsICD10.html" target="_blank">Click here</a>
+<a href="https://www.cms.gov/Medicare/Coverage/CoverageGenInfo/LabNCDsICD10" target="_blank">Click here</a>
 
 <h6>Check Vitamin D codes:</h6>
 
