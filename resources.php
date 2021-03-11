@@ -21,6 +21,9 @@ include 'header.php';
 <a href="https://www.cms.gov/medicare-coverage-database/details/article-details.aspx?articleId=56485&ver=10&LCDId=33418&bc=AAAAAAABAAAA&
 " target="_blank">Click here</a>
 
+<h6>MICROBIOLOGY SPECIMEN COLLECTION AND TRANSPORT GUIDE:</h6>
+<a href="docs/microbiology-specimem-collection.docx" target="_blank">Click here</a>
+
 
     </div> <!-- col --> 
 </div> <!-- container -->
