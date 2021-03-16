@@ -16,10 +16,9 @@ include 'header.php';
 
 <a href="https://www.cms.gov/Medicare/Coverage/CoverageGenInfo/LabNCDsICD10" target="_blank">Click here</a>
 
-<h6>Check Vitamin D codes:</h6>
+<h6>Billing and Coding: Assays for Vitamins and Metabolic Function:</h6>
 
-<a href="https://www.cms.gov/medicare-coverage-database/details/article-details.aspx?articleId=56485&ver=10&LCDId=33418&bc=AAAAAAABAAAA&
-" target="_blank">Click here</a>
+<a href="https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.cms.gov%2Fmedicare-coverage-database%2Fdetails%2Farticle-details.aspx%3FarticleId%3D56485%26ver%3D12%26LCDId%3D33418%26bc%3DAAAAAAABEAAA%26&data=04%7C01%7C%7C34087612f27b40a777c108d8e881921b%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637514991689573953%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=x58PqN%2BsPyfoyguVRO76HAx9LA0u3iDCj2PK56iXdQE%3D&reserved=0" target="_blank">Click here</a>
 
 <h6>MICROBIOLOGY SPECIMEN COLLECTION AND TRANSPORT GUIDE:</h6>
 <a href="docs/microbiology-specimem-collection.docx" target="_blank">Click here</a>
