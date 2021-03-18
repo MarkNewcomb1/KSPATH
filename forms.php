@@ -26,7 +26,7 @@ include 'header.php';
   <br>
   <a class="button" href="docs/abn_booklet.pdf">Download</a> 
   
-  		<h6>Download a copy of the Just flow chart below</h6>
+  		<h6>Download a copy of the flow chart below</h6>
   <br>
   <a class="button" href="docs/just-flow-chart.pdf">Download</a> 
 	  
