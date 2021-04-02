@@ -30,6 +30,7 @@
 	<ul>
 		<li><a href="resources.php">Resources</a></li>
 		<li><a href="http://kspath.ppi.net/testcatalog/">Test Catalog</a></li>
+		<li><a href="https://kspath.ppi.net/supply-form/">Supply Form</a></li>
 		<li><a href="forms.php">Forms</a></li>
 	     <li><a href="service.php">Customer Service</a></li>
          <li><a href="aboutus.php">Who We Are</a></li>
